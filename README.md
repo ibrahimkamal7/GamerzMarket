@@ -22,7 +22,7 @@ We do not have our database hosted, so if you want to see the website working, y
 # Repository Structure
 * Root Directory - contains the code for the application
 * ScreenShots - contains the screenshot of the working website
-* databaseschema - contains the database schema of the database used for the application
+* databaseschema-images - contains the database schema of the database used for the application
 * images - directory used for storing the images which the users upload while posting the advertisements
 
 # How to run the project
