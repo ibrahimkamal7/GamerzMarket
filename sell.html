@@ -1,0 +1,49 @@
+<html>
+    <head>
+       <style>
+       body{
+        background-image: url("bg3.jpg");
+       }
+       
+       #form1{
+           
+           padding: 20px 80px 50px 80px;
+           border: 2px solid black;
+           background-color: white;
+           margin: 0;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
+           
+       }
+         
+           #name{
+                height: 30px;
+                width: 200px;
+           }
+        </style>
+        
+    </head>
+    <body>
+        <div id="form1">
+        <center><h2>Gamerz Market</h2></center>
+        <center><p style="font-weight: bold">Product Information</p></center>
+        <form enctype=multipart/form-data id="form" action="javascript:void(0);">
+            <input type="text" placeholder="Product Name" id="name" name="name"><br><br>
+            <textarea rows="4" cols="50" placeholder="Description" id="description" name="description"></textarea><br><br>
+            <input type="text" placeholder="Price" id="name" name="price"><br><br>
+            <input type="radio" id="PS" name="platform" value="PS">
+            <label for="PS">PS</label><br><br>
+            <input type="radio" id="XBOX" name="platform" value="XBOX">
+            <label for="XBOX">XBOX</label><br><br>
+            <input type="radio" id="other" name="platform" value="other">
+            <label for="other">Other</label> <br><br>
+            <label for="img">Upload Image:</label><input type="file" id="img" name="img"><br><br>
+            <center><input type="submit" value="Sell" id="sell" style="font-weight: bold; background-color: deepskyblue;color:white;font-size:14px;height:30px;width:200px"></center>
+        </form>		
+        <script src="sell.js"></script>
+        </div>
+    </body>
+</html>
